@@ -1,0 +1,10 @@
+name = "nexaro-ai-worker"
+main = "src/index.js"
+compatibility_date = "2026-09-22"
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "nexaro-ai-memory"
+[vars]
+ALLOWED_ORIGIN = "https://YOUR-FRONTEND.example"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+COHERE_MODEL = "command-a-03-2025"
